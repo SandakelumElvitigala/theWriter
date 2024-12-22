@@ -1,0 +1,60 @@
+.body{
+    overflow-y: hidden;
+    max-height: 100vh;
+}
+
+.sidebar {
+    margin-top: 1.5%;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 0;
+    width: 20vw;
+    background-color: #362ffbfb;
+    position: fixed;
+    height: 95%;
+    overflow: auto;
+    color: white;
+}
+
+div.content {
+    width: 80vw;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.topdiv {
+    width: 80vw;
+    overflow-x: scroll;
+}
+
+.card {
+    height: 25vh;
+    width: 20vh;
+}
+
+.toptbl {
+    height: 25vh;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}

@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+

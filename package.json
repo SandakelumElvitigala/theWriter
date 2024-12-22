@@ -1,0 +1,26 @@
+{
+  "name": "the-writer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@supabase/supabase-js": "^2.47.10",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "next": "14.2.21",
+    "react": "^18",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.21"
+  }
+}
